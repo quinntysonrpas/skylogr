@@ -6,11 +6,27 @@ Skylogr imports flight logs from DJI, ArduPilot, and MAVLink-based aircraft, org
 
 ---
 
+## Screenshots
+
+![Dashboard](screenshots/Dashboard.PNG)
+![Fleet](screenshots/Fleet.png)
+![Flight History](screenshots/FlightHistory.png)
+![Flight Statistics](screenshots/FlightStatistics1.png)
+![Flight Statistics](screenshots/FlightStatistics2.png)
+![Flight Statistics](screenshots/FlightStatistics3.png)
+![Flight Statistics](screenshots/FlightStatistics4.png)
+![Import](screenshots/Import.png)
+![Portfolio Export](screenshots/PortfolioExport.png)
+![Portfolio Export](screenshots/PortfolioExport2.png)
+![Profile](screenshots/Profile.png)
+
+---
+
 ## Features
 
 - **Local-first & Private** — your flights are stored in a database on your own computer, never uploaded anywhere
 - **Multi-Format Log Import** — supports:
-  - DJI Fly app logs (`.txt`) — full GPS, altitude, speed, and battery telemetry. For DJI logs v13+ you will need to get a DJI developer API key one time. (free and takes only 2 minutes - Make DJI developer account,   create app, get app key.)
+  - DJI Fly app logs (`.txt`) — full GPS, altitude, speed, and battery telemetry
   - ArduPilot dataflash logs (`.bin`)
   - MAVLink telemetry logs (`.tlog` / `.rlog`)
   - Airdata UAV CSV exports (`.csv`)
