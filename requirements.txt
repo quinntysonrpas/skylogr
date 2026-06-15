@@ -1,0 +1,33 @@
+# Core Framework
+nicegui==1.4.21
+# fastapi and uvicorn will be installed as nicegui dependencies
+
+# Encryption for DJI API keys
+cryptography==42.0.0
+
+# DJI Flight Record Parsing (official approach)
+# Note: Requires user to provide their own DJI App Key
+requests==2.31.0
+
+# ArduPilot/Mission Planner support
+pymavlink==2.4.41
+pyserial==3.5
+
+# File watching
+watchdog==3.0.0
+
+# Data processing
+pandas==2.1.4
+numpy==1.26.3
+
+# Charts and visualization
+plotly==5.18.0
+
+# PDF generation
+reportlab==4.0.7
+
+# Packaging
+pyinstaller==6.3.0
+
+# Utilities
+python-dateutil==2.8.2

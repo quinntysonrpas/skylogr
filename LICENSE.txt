@@ -1,0 +1,41 @@
+Skylogr - End User License Agreement (EULA)
+
+Copyright (c) 2024 Skylogr by QCT Aerial Solutions. All rights reserved.
+
+GRANT OF LICENSE
+This software is licensed, not sold. You are granted a non-exclusive, 
+non-transferable license to use this software for personal or commercial purposes.
+
+PERMITTED USES
+- Install and use the software on multiple computers
+- Create backups of your flight data
+- Generate reports for personal or professional use
+
+RESTRICTIONS
+- You may not reverse engineer, decompile, or disassemble the software
+- You may not redistribute or resell the software
+- You may not remove copyright notices
+
+DATA STORAGE
+All flight data is stored locally on your computer in:
+- SQLite database (data/flights.db)
+- Uploaded files (data/uploads/)
+- Configuration (data/config/)
+
+Your data is NEVER transmitted to external servers. This is a fully offline application.
+
+DATA PERSISTENCE & BACKUPS
+- Flight data persists indefinitely in the SQLite database
+- Database is stored in your Documents folder: Documents\Skylogr\data\
+- Use the "Backup Flight Data" feature regularly to protect your data
+- Backups are stored in: Documents\Skylogr\data\backups\
+
+WARRANTY DISCLAIMER
+THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+THE AUTHORS ARE NOT LIABLE FOR ANY DATA LOSS, DAMAGES, OR OTHER LIABILITY ARISING 
+FROM THE USE OF THIS SOFTWARE.
+
+RECOMMENDATION: Always maintain regular backups of your flight data using the 
+built-in backup feature or by manually copying the data folder.
+
+For support, visit: https://github.com/yourusername/skylogr
