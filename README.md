@@ -2,7 +2,7 @@
 
 **Offline-first flight logbook for professional drone pilots.**
 
-Skylogr imports flight logs from DJI, ArduPilot, and MAVLink-based aircraft, organizes them by drone, and gives you a clean dashboard of your flight hours, fleet, and pilot stats — all stored locally on your own computer. No subscriptions, no cloud, no internet required after setup.
+Skylogr imports flight logs from DJI, ArduPilot, and MAVLink-based aircraft, organizes them by drone, and gives you a clean dashboard of your flight hours, fleet, and pilot stats — all stored locally on your own computer. No subscriptions, no cloud, no internet required after setup. DJI v13+ logs require one time input of a free DJI API key.
 
 ---
 
